@@ -1,0 +1,130 @@
+body {
+    width: 200px;
+}
+
+button {
+    height: 30px;
+    width: 30px;
+    outline: none;
+    margin: 10px;
+    border: none;
+    border-radius: 2px;
+}
+
+button.current {
+    box-shadow: 0 0 0 2px white,
+    0 0 0 4px black;
+}
+
+.normal {
+    width: 128px;
+    height: 128px;
+    background-repeat: no-repeat;
+    background-image: url("images/gavel-solid.svg");
+}
+
+.hit {
+    background-image: url("images/gavel-solid-hit.svg");
+}
+
+#number {
+    border: none;
+}
+
+#reset {
+    height: 30px;
+    width: 180px;
+    outline: none;
+    margin: 10px;
+    border: none;
+    border-radius: 2px;
+
+    appearance: auto;
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: black;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    background-color: rgb(199, 199, 199);
+    box-sizing: border-box;
+}
+
+#word {
+    border: none;
+    width: 100px;
+    z-index: 1;
+}
+
+#whacker {
+    z-index: 3;
+}
+
+#license {
+    text-align: end;
+}
+
+.bang-1 {
+    background: url('images/bang1.png') no-repeat;
+}
+
+.bang-2 {
+    background: url('images/bang2.png') no-repeat;
+}
+
+.bang-3 {
+    background: url('images/bang3.png') no-repeat;
+}
+
+.bang-4 {
+    background: url('images/bang4.png') no-repeat;
+}
+
+.bang-5 {
+    background: url('images/bang5.png') no-repeat;
+}
+
+.bang-6 {
+    background: url('images/bang6.png') no-repeat;
+}
+
+.bang-7 {
+    background: url('images/bang7.png') no-repeat;
+}
+
+.bang-8 {
+    background: url('images/bang8.png') no-repeat;
+}
+
+.bang-9 {
+    background: url('images/bang9.png') no-repeat;
+}
+
+.bang-10 {
+    background: url('images/bang10.png') no-repeat;
+}
+
+.bang-11 {
+    background: url('images/bang11.png') no-repeat;
+}
+
+.bang-12 {
+    background: url('images/bang12.png') no-repeat;
+}
+
+#bang {
+    /*display: none;*/
+    z-index: 2;
+    position:absolute;
+    left: 10px;
+    top: 50px;
+    width: 200px;
+    height: 200px;
+    background-size: 200px 200px;
+}
